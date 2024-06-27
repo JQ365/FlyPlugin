@@ -1,0 +1,62 @@
+#-----------------#
+#   FLY PLUGIN    #
+#  MADE BY JQ365  #
+#   VERSION 0.1   #
+#-----------------#
+
+#You can use '&' colors
+
+prefix: "&7[&b&lFlyPlugin&7] "
+on-message: "&fThe Fly Mode has been enabled"
+off-message: "&fThe Fly Mode has been disabled"
+permission-message: "&fYou don't have permission to open the fly gui"
+perm-msg-options: "&fYou don't have permission to open the options fly gui"
+
+is-flying: "&fYou have to be flying to open the options"
+
+#Both titles need to be different (can not be the same)
+flytitle-gui: "&bFly Plugin GUI"
+flyoptions-title-gui: "&bFly Plugin Options GUI"
+
+#Fly GUI
+size: 9 #i.e. 9 18 27 36 45 54
+
+#Item to toggle the fly mode
+name-flymode: "&bFly Mode"
+flymode-item-index: 3
+lore-flyitem:
+  - "&fToggle Fly Mode!"
+  - "&fPut your lore"
+  - "&fhere"
+
+#Item to change the speed of fly mode
+name-flyoptions: "&bFly Options"
+flyoptions-item-index: 5
+lore-flyoptions-item:
+  - "&fPut your lore"
+  - "&fhere"
+
+#Fly Options GUI
+size-flyoptions: 27
+title-speed1: "&fSpeed 1"
+speed1-item-index: 11
+lore-speed1:
+  - "&fPut your lore"
+  - "&fhere"
+
+title-speed2: "&fSpeed 2"
+speed2-item-index: 13
+lore-speed2:
+  - "&fPut your lore"
+  - "&fhere"
+
+title-speed3: "&fSpeed 3"
+speed3-item-index: 15
+lore-speed3:
+  - "&fPut your lore"
+  - "&fhere"
+
+#messages
+message-speed1: "&fThe speed is lower :("
+message-speed2: "&fThe speed is normal"
+message-speed3: "&fThe speed is huge!"
